@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='latexit',
-    version='0.1.0',
+    version='0.2.0',
     description='Render LaTeX code to PNG images with transparent background (no math mode required)',
     author='Furkan Tandogan',
     packages=find_packages(),
