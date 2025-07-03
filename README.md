@@ -13,23 +13,30 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 
 ## Installation
 
+### Option 1 Install via pip
+
+   ```sh
+   $ pip install latexit
+   ```
+
+### Option 2 Install manually
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/latexit.git
-   cd latexit
-   ```
+```sh
+$ git clone https://github.com/yourusername/latexit.git
+$ cd latexit
+```
 2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   # or, if using pyproject.toml:
-   pip install .
-   ```
+```sh
+pip install -r requirements.txt
+# or, if using pyproject.toml:
+pip install .
+```
 
 ## Usage
 
-```sh
-latexit "\\frac{1}{2}" output.png
-```
+   ```sh
+   latexit "\\frac{1}{2}" output.png
+   ```
 
 Options:
 - `--dpi`: Set output DPI (default: 300)
@@ -42,16 +49,8 @@ Options:
 latexit "x^2 + y^2 = z^2" pythagoras.png
 ```
 
-## Improving the LaTeX Look
-To get closer to the classic LaTeX look, you can set the mathtext font to Computer Modern in your code:
-
-```python
-import matplotlib as mpl
-mpl.rcParams['mathtext.fontset'] = 'cm'
-```
-
 ## License
 MIT
 
 ## Acknowledgments
-This project was developed with guidance and code suggestions from an AI assistant (powered by OpenAI's GPT-4). 
+This project was developed with guidance and code suggestions from an AI assistant Cursor (powered by OpenAI's GPT-4). 

@@ -4,6 +4,7 @@ import sys
 import os
 import tempfile
 
+
 def main():
     parser = argparse.ArgumentParser(description='Render LaTeX code to a PNG image with transparent background.')
     parser.add_argument('latex_code', type=str, help='The LaTeX code to render (no math mode required).')
@@ -24,4 +25,5 @@ def main():
         # This is a best-effort: in most cases, the log is in the tempdir used by latexit
         # For debugging, suggest user to check their LaTeX installation
         print("\nIf this is a LaTeX error, please check your LaTeX installation (try running 'latex --version').", file=sys.stderr)
-        sys.exit(1) 
+        sys.exit(1)
+        

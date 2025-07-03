@@ -7,8 +7,10 @@ from PIL import Image
 import io
 import matplotlib as mpl
 
+
 mpl.rcParams['mathtext.fontset'] = 'cm'
 mpl.rcParams['mathtext.rm'] = 'serif'
+
 
 def latexit(latex_code: str, output_path: str, dpi: int = 300, fontsize: int = 24, padding: int = 10):
     """
@@ -60,4 +62,5 @@ def latexit(latex_code: str, output_path: str, dpi: int = 300, fontsize: int = 2
         raise RuntimeError(f"Failed to render LaTeX with matplotlib's mathtext. Error: {e}\nNote: Only a subset of LaTeX math is supported. See https://matplotlib.org/stable/tutorials/text/mathtext.html")
     plt.close(fig)
 
-__all__ = ["latexit"] 
+
+__all__ = ["latexit"]

@@ -30,4 +30,6 @@ setup(
     ],
     include_package_data=True,
     zip_safe=False,
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
 ) 
