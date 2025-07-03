@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
+
 setup(
-    name='latex_to_png',
+    name='latexify',
     version='0.1.0',
     description='Render LaTeX code to PNG images with transparent background (no math mode required)',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Furkan Tandogan',
     packages=find_packages(),
     install_requires=[
         'matplotlib',
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'latexify=latex_to_png.cli:main',
+            'latexify=src.cli:main',
         ],
     },
     python_requires='>=3.7',

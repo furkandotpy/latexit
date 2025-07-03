@@ -51,4 +51,7 @@ mpl.rcParams['mathtext.fontset'] = 'cm'
 ```
 
 ## License
-MIT 
+MIT
+
+## Acknowledgments
+This project was developed with guidance and code suggestions from an AI assistant (powered by OpenAI's GPT-4). 
