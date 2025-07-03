@@ -10,7 +10,7 @@ import matplotlib as mpl
 mpl.rcParams['mathtext.fontset'] = 'cm'
 mpl.rcParams['mathtext.rm'] = 'serif'
 
-def latexify(latex_code: str, output_path: str, dpi: int = 300, fontsize: int = 24, padding: int = 10):
+def latexit(latex_code: str, output_path: str, dpi: int = 300, fontsize: int = 24, padding: int = 10):
     """
     Render LaTeX math code to a PNG image with a transparent background using matplotlib's mathtext engine.
     Only a subset of LaTeX math is supported (see matplotlib documentation).
@@ -60,4 +60,4 @@ def latexify(latex_code: str, output_path: str, dpi: int = 300, fontsize: int = 
         raise RuntimeError(f"Failed to render LaTeX with matplotlib's mathtext. Error: {e}\nNote: Only a subset of LaTeX math is supported. See https://matplotlib.org/stable/tutorials/text/mathtext.html")
     plt.close(fig)
 
-__all__ = ["latexify"] 
+__all__ = ["latexit"] 

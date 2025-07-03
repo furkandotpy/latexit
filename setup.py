@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='latexify',
+    name='latexit',
     version='0.1.0',
     description='Render LaTeX code to PNG images with transparent background (no math mode required)',
     author='Furkan Tandogan',
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'latexify=src.cli:main',
+            'latexit=src.cli:main',
         ],
     },
     python_requires='>=3.7',

@@ -1,4 +1,4 @@
-# latexify
+# latexit
 
 Render LaTeX math formulas to PNG images from the command line, using pure Python and matplotlib's mathtext engine.
 
@@ -15,8 +15,8 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/latexify.git
-   cd latexify
+   git clone https://github.com/yourusername/latexit.git
+   cd latexit
    ```
 2. Install dependencies:
    ```sh
@@ -28,7 +28,7 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 ## Usage
 
 ```sh
-latexify "\\frac{1}{2}" output.png
+latexit "\\frac{1}{2}" output.png
 ```
 
 Options:
@@ -39,7 +39,7 @@ Options:
 ## Example
 
 ```sh
-latexify "x^2 + y^2 = z^2" pythagoras.png
+latexit "x^2 + y^2 = z^2" pythagoras.png
 ```
 
 ## Improving the LaTeX Look
