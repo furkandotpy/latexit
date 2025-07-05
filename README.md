@@ -15,9 +15,9 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 
 ### Option 1 Install via pip
 
-   ```sh
-   $ pip install latexit
-   ```
+```sh
+$ pip install latexit
+```
 
 ### Option 2 Install manually
 1. Clone the repository:
@@ -34,20 +34,15 @@ pip install .
 
 ## Usage
 
-   ```sh
-   latexit "\\frac{1}{2}" output.png
-   ```
+```sh
+latexit "\\frac{1}{2}" output.png
+```
 
 Options:
 - `--dpi`: Set output DPI (default: 300)
 - `--fontsize`: Set font size (default: 24)
 - `--padding`: Set padding in pixels (default: 10)
 
-## Example
-
-```sh
-latexit "x^2 + y^2 = z^2" pythagoras.png
-```
 
 ## License
 MIT
