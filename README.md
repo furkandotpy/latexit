@@ -37,7 +37,7 @@ pip install .
 ```sh
 latexit "\\frac{1}{2}" output.png
 ```
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/furkandotpy/latexit/blob/main/output.png?raw=true))
+![alt text](https://github.com/furkandotpy/latexit/blob/main/output.png?raw=true)
 
 
 Options:
