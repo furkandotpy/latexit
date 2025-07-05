@@ -4,7 +4,7 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 
 ## Features
 - **Pure Python**: No system LaTeX required, cross-platform.
-- **CLI tool**: Convert LaTeX math snippets to PNG images.
+- **CLI tool**: Convert LaTeX math snippets to PNG images -> No Background (good for slides)
 - **Transparent background** and customizable DPI, font size, and padding.
 
 ## Limitations
@@ -38,7 +38,7 @@ pip install .
 latexit "\\frac{1}{2}" output.png
 ```
 ![alt text](https://github.com/furkandotpy/latexit/blob/main/output.png?raw=true)
-
+The image is not rendered quite like I would have liked because it is a png. The background is removed which makes it perfect for slides!
 
 Options:
 - `--dpi`: Set output DPI (default: 300)
