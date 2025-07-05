@@ -9,7 +9,6 @@ Render LaTeX math formulas to PNG images from the command line, using pure Pytho
 
 ## Limitations
 - Only a subset of LaTeX math is supported (see [matplotlib mathtext documentation](https://matplotlib.org/stable/tutorials/text/mathtext.html)).
-- The output may not look exactly like real LaTeX (TeX/Computer Modern), but you can get close by using the Computer Modern font (see below).
 
 ## Installation
 
