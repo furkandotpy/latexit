@@ -21,7 +21,7 @@ $ pip install latexit
 ### Option 2 Install manually
 1. Clone the repository:
 ```sh
-$ git clone https://github.com/yourusername/latexit.git
+$ git clone https://github.com/furkandotpy/latexit.git
 $ cd latexit
 ```
 2. Install dependencies:
